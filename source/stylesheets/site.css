@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Quicksand-Regular';
+  src: url('/fonts/Quicksand-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'FiraSans-Light';
+  src: url('/fonts/FireSans-Light.otf') format('opentype');
+}
+
+* {
+  background-color: #E08283;
+}
+
+body {
+  background-color: #E08283;
+  font-family: 'Quicksand-Regular';
+  color: white;
+  text-align: center;
+}
+
+#content {
+  width: 100%;
+  position: absolute;
+  top: 25%;
+  bottom: 75%;
+}
+
+.title {
+  font-size: 26px;
+  letter-spacing: 0.5em;
+}
+
+.subtitle {
+  font-family: 'FiraSans-Light';
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  line-height: 1.4em;
+}
+
+.regular {
+  font-family: 'FiraSans-Light';
+  letter-spacing: 0.2em;
+}
+
+#footer {
+
+}
