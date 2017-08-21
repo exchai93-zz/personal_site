@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'Quicksand-Regular';
+  src: url('/fonts/Quicksand-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Quicksand-Light';
+  src: url('/fonts/Quicksand-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'FiraSans-Light';
+  src: url('/fonts/FireSans-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Nimbus Mono';
+  src: url('/fonts/nimbusmono-regular.otf') format('opentype');
+}
+
+* {
+  background-color: #E08283;
+}
+
+body {
+  color: white;
+  text-align: center;
+}
+
+#content {
+  width: 100%;
+  position: absolute;
+  top: 25%;
+  bottom: 75%;
+}
+
+.title {
+  font-family: 'Quicksand-Light';
+  font-size: 26px;
+  letter-spacing: 0.5em;
+}
+
+.subtitle {
+  font-family: 'Nimbus Mono';
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  line-height: 1.4em;
+}
+
+.text {
+  font-family: 'FiraSans-Light';
+  letter-spacing: 0.2em;
+}
+
+#footer {
+  position: fixed;
+  bottom: 10%;
+  width: 100%;
+}
+
+.footer-text {
+  font-size: 12px;
+  letter-spacing: 0.2em;
+}
+
+.thumbnail {
+  width: 28px;
+  height: 28px;
+}
