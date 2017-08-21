@@ -24,14 +24,14 @@
 
 body {
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 #content {
   width: 100%;
   position: absolute;
-  top: 25%;
-  bottom: 75%;
+  top: 10%;
+  bottom: 90%;
 }
 
 .title {
@@ -48,7 +48,8 @@ body {
 }
 
 .text {
-  font-family: 'FiraSans-Light';
+  font-family: 'Nimbus Mono';
+  font-size: 12px;
   letter-spacing: 0.2em;
 }
 
@@ -59,6 +60,7 @@ body {
 }
 
 .footer-text {
+  font-family: 'Nimbus Mono';
   font-size: 12px;
   letter-spacing: 0.2em;
 }
